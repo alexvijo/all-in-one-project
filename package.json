@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "start:integration": "ng serve --configuration integration",
     "test": "ng test",
     "serve:ssr:all-in-one-project": "node dist/all-in-one-project/server/server.mjs",
     "cypress:open": "cypress open",
